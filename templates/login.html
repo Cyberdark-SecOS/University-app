@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión - App de Citas Médicas</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        h1 {
+            color: #3498db;
+        }
+        form {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 400px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            color: #333;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            color: #fff;
+            background-color: #3498db;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciar Sesión en la App de Citas Médicas -Hospital Local de Puerto lopez</h1>
+    <form method="post">
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" required>
+        
+        <button type="submit">Iniciar Sesión</button>
+    </form>
+    <p>¿No tienes una cuenta? <a href="/signup">Regístrate</a></p>
+</body>
+</html>
